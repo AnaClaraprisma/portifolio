@@ -25,7 +25,7 @@ header {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     font-size: 1.25rem;
 }
@@ -122,5 +122,23 @@ p {
     margin-top: 3rem;
 }
 .job_2 {
-    background-color: crimson;
+    background-color: rgb(233, 214, 255);
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    height: 100%;
+    max-height: 24rem;
+    border-radius: 20px;
+}
+
+.job_2 p {
+    max-width: 300px;
+}
+.tecnologia {
+  
+    gap: .9rem;
+    margin-bottom: 4rem;
+    max-width: 600px;
 }
